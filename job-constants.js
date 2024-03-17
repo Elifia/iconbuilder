@@ -1154,7 +1154,7 @@ const JOBS = {
 					},
 					{
 						type: "Effect",
-						effect: "Sacrifice up to 6, then fly half that many spaces. Place your foe in a free adjacent space. They take [D]+fray damage and are slashed. slashed characters are stunned. If you can’t place the foe in a valid space this action can’t be taken.",
+						effect: "Sacrifice up to 6, then fly half that many spaces. Place your foe in a free adjacent space. They take [D]+fray damage and are slashed. Slashed characters are stunned. If you can’t place the foe in a valid space this action can’t be taken.",
 					},
 					{
 						type: "Heroic",
@@ -5858,7 +5858,7 @@ const JOBS = {
 				},
 				mastery: {
 					name: "Jade Needle",
-					effect: "Characters in the affected area must save or also also be affected by every status that was just purged.",
+					effect: "Characters in the affected area must save or also be affected by every status that was just purged.",
 				},
 			},
 			"Midas": {

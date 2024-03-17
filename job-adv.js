@@ -133,10 +133,10 @@ function renderJobPopup(values, jobOptions, callback) {
 	let chosenJob = null;
 
 	const popupContent = document.createElement("div");
-	popupContent.style = "display: flex; justify-content: space-between;";
+	popupContent.style = "display: flex; justify-content: space-between; height: 500px; max-height: calc(100vh - 150px);";
 
 	const description = document.createElement("div");
-	description.style = "width: 65%; padding-left: 20px;";
+	description.style = "width: 65%; overflow: auto; margin-right: -20px; padding: 0 20px;";
 
 	const descriptionTitle = document.createElement("h2");
 	descriptionTitle.style = "margin-bottom: 0;";
@@ -162,7 +162,7 @@ function renderJobPopup(values, jobOptions, callback) {
 	popupContent.append(options, description);
 
 	const popup = renderPopup(popupContent, () => callback(chosenJob));
-	popup.style = "width: 600px;";
+	popup.style = "width: 700px; max-width: 700px";
 
 	popup.addEventListener("close", () => {
 		render();
@@ -173,7 +173,7 @@ function renderJobPopup(values, jobOptions, callback) {
 
 function renderJobOptions(keys, currentJob, callback, width = "35%") {
 	const options = document.createElement("div");
-	options.style = `display: flex; flex-direction: column; gap: 5px; width: ${width};`;
+	options.style = `display: flex; flex-direction: column; gap: 5px; overflow: auto; padding-right: 10px; width: ${width};`;
 
 	for (const key of keys) {
 		const button = document.createElement("button");
@@ -216,7 +216,7 @@ function renderRelicPopup(level) {
 	const previousRelics = getJobStats().relics.map((relic) => relic.name).filter((relic) => relic !== chosenRelic);
 
 	const popupContent = document.createElement("div");
-	popupContent.style = "display: flex; justify-content: space-between; height: 500px;";
+	popupContent.style = "display: flex; justify-content: space-between; height: 500px; max-height: calc(100vh - 150px);";
 
 	const description = document.createElement("div");
 	description.style = "width: 65%; overflow: auto; margin-right: -20px; padding-right: 20px;";

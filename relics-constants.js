@@ -3,7 +3,7 @@ const RELICS = {
  	"Ape God": {
  	 	class: "Stalwart",
  	 	description: "This gauntlet or weapon is oversized, studded with metal, and incredibly heavy.",
- 	 	I: "Invoke (Attack, 17+) - Stun your attack target.",
+ 	 	I: "Invoke (Attack, 17+): Stun your attack target.",
  	 	II: "Become immune to stun",
  	 	III: "When you stun a foe, you can also stun another foe within 2 spaces of that character.",
  	 	aspected: "If your Invoke goes off, your attack also deals bonus damage, shoves all foes adjacent to your target 1, and you may shove yourself 2 in any direction after it resolves.",
@@ -51,7 +51,7 @@ const RELICS = {
  	 	I: "Charged attacks gain +1 boon",
  	 	II: "Charged attacks also deal 2 damage to all foes adjacent to your attack target after the ability resolves.",
  	 	III: "When you choose to take a slow turn, you and all allies in range 3 can rush 1",
- 	 	aspected: "Invoke (Gambit) - Free action: This turn only, all your actions trigger all charge effects.",
+ 	 	aspected: "Invoke (Gambit): Free action: This turn only, all your actions trigger all charge effects.",
  	 	quest: "Weave the aethersilk of an ancient Ur-spider into your relic",
  	},
 	"Wyrmtooth": {
@@ -195,7 +195,7 @@ const RELICS = {
  	 	I: "At the start of your turn, you may shove an ally 1 space in any direction.",
  	 	II: "Erenbrass I can be taken at the start and end of your turn, and can choose different characters each time.",
  	 	III: "Erenbrass I can also be a dash, teleport or a fly effect (your choice), and is increased by +1 if your chosen character is bloodied.",
- 	 	aspected: "Erenbrass can affected foes, as long as they are in range 3.",
+ 	 	aspected: "Erenbrass can affect foes, as long as they are in range 3.",
  	 	quest: "Take command of an army, militia, or regiment in battle and fight to victory.",
  	},
 	"Esper": {
@@ -345,9 +345,9 @@ const RELICS = {
 	"Conquering King": {
  	 	class: "Wright",
  	 	description: "This relic has a regal bearing, with imagery of lightning bolts made of wrought gold.",
- 	 	I: "Invoke (5th round+) - All abilities deal bonus damage.",
- 	 	II: "Invoke (7th round+) - All attacks become critical hits on hit.",
- 	 	III: "Invoke (Attack, 18+) - Lower your threshold for any effects that rely on round number by 1, this combat only. This effect can stack multiple times. This applies to all abilities, traits, and relics.",
+ 	 	I: "Invoke (5th round+): All abilities deal bonus damage.",
+ 	 	II: "Invoke (7th round+): All attacks become critical hits on hit.",
+ 	 	III: "Invoke (Attack, 18+): Lower your threshold for any effects that rely on round number by 1, this combat only. This effect can stack multiple times. This applies to all abilities, traits, and relics.",
  	 	aspected: "Conquering King III becomes Invoke (Attack, 15+).",
  	 	quest: "Find and commune with an entrance to the Highest House, the divine realm where the creators of the world are said to sleep.",
  	},
