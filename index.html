@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ICON Character Builder</title>
+		<link href="./style.css" rel="stylesheet" />
+		<script src="./main.js"></script>
+		<script src="./menu.js"></script>
+		<script src="./basic.js"></script>
+		<script src="./interlude.js"></script>
+		<script src="./bond.js"></script>
+		<script src="./bond-adv.js"></script>
+		<script src="./bond-constants.js"></script>
+		<script src="./gear.js"></script>
+		<script src="./job.js"></script>
+		<script src="./job-adv.js"></script>
+		<script src="./job-constants.js"></script>
+		<script src="./relics.js"></script>
+		<script src="./relics-constants.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div>
+				<button class="menu-button">Menu</button>
+				<div id="menu" class="dropdown" visible="false"></div>
+			</div>
+			<div>
+				<button class="menu-button">Characters</button>
+				<div id="character-list" class="dropdown" visible="false"></div>
+			</div>
+			<div style="margin-left: auto;">
+				<button id="delete">🗑️</button>
+				<div id="delete-popup" class="popup" visible="false">
+					<h3>Are you sure you wish to delete the current character? This action cannot be undone.</h3>
+					<div class="popup-buttons">
+						<button id="delete-confirm">Delete</button>
+						<button class="cancel">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="tabs"></div>
+			<div id="page"></div>
+		</div>
+		<script>init();</script>
+	</body>
+</html>
