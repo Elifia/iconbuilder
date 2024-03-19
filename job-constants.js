@@ -1333,7 +1333,7 @@ const JOBS = {
 			ultimateEffect: "Gains range 5 and also deals divine fray damage to your foe.",
 		},
 		abilities: {
-			"low Blow": {
+			"Low Blow": {
 				chapter: 1,
 				action: [
 					"1 Action",

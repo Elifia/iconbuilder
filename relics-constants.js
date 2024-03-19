@@ -281,8 +281,8 @@ const RELICS = {
  	},
 	"Domain": {
  	 	class: "Wright",
- 	 	description: "A sceptre, weapon, or helm embedded with a deeply inset gem. Gain trait: Domain: When you create a terrain effect or object, you can place your Domain over one of its spaces, a small blast terrain effect. Using this trait again moves the Domain instead of creating a new one.",
- 	 	I: "Gain +1 boon on attacks against foes in your Domain",
+ 	 	description: "A sceptre, weapon, or helm embedded with a deeply inset gem.",
+ 	 	I: "Gain trait: Domain: When you create a terrain effect or object, you can place your Domain over one of its spaces, a small blast terrain effect. Using this trait again moves the Domain instead of creating a new one. Gain +1 boon on attacks against foes in your Domain",
  	 	II: "Foes that end their turn in your Domain take 1 piercing damage.",
  	 	III: "Dangerous terrain deals +1 more damage to foes inside your Domain. Difficult terrain costs 2 spaces for foes to exit instead of 1.",
  	 	aspected: "Invoke (Round 4+): Your Domain becomes difficult and dangerous terrain for foes.",
