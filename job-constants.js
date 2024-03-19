@@ -1517,10 +1517,10 @@ const JOBS = {
 				effects: [
 					{
 						type: "Stance",
-						effect: "While in this stance: <ul><li>You gain hatred+ of the closest foe to you at the start of your turn or when you enter this stance.",
+						effect: "While in this stance: <ul><li>You gain hatred+ of the closest foe to you at the start of your turn or when you enter this stance. If multiple foes are equidistant, you may choose. </li><li>You are sturdy </li><li>You gain vigilance +1 at the end of your turn</li></ul>",
 					},
 					{
-						type: "If multiple foes are equidistant, you may choose. </li><li>You are sturdy </li><li>You gain vigilance +1 at the end of your turn</li></ul> Heroic",
+						type: "Heroic",
 						effect: "On entering this stance, you may gain 2 vigor per status affecting you, including from this stance.",
 					},
 					{
